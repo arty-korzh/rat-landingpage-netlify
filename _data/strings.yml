@@ -5,9 +5,14 @@ app:
 footer:
   copyright: Copyright © Artem Korzh 2022
   links:
+    - title: Mail me
+      url: mailto:artycake.developer@gmail.com
+      target: _blank
     - title: Twitter
       url: http://twitter.com/app_rat
       target: _blank
+    - title: Support
+      url: /support
     - title: Privacy
       url: /privacy
     - title: Terms of use

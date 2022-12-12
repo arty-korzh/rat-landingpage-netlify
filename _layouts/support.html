@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="page">
+
+  <header class="page__header">
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="page__content">
+    <section class="app__section container">
+        <h2 class="app__section-title">Contact me</h2>
+        <div>
+            <form name="contact" netlify>
+                <p>
+                  <label>Your Name <input type="text" name="name"/></label>
+                </p>
+                <p>
+                  <label>Your Email <input type="email" name="email"/></label>
+                </p>
+                <p>
+                    <label>Message</label><textarea name="message"/>
+                  </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+        </div>
+      </section>
+  </div>
+
+</article>
