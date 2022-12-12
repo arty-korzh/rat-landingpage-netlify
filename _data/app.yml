@@ -1,19 +1,23 @@
-name: Mobile App Name
-description: A super tagline for the mobile app
-full_description: 'A more complete description of the mobile app<br>
-<br>With a lot of features:
-<br>- Feature 1
-<br>- Feature 2
-<br>- Feature 3'
-android: https://telegra.ph/Replace-this-link-07-23
-iOS: https://telegra.ph/Replace-this-link-07-23
-web: https://telegra.ph/Replace-this-link-07-23
+name: Rust Admin Tool
+description: Handy tool for Rust servers administrators 
+full_description: 'Allows to have quick access to all the managed servers in one place<br/>
+<br/>Features of the app:
+<br/>- View and edit server hostname and description
+<br/>- Manage server players: ban, kick, mute, or even kill with a few taps
+<br/>- Manage the list of banned players
+<br/>- RCon console for hardcore administrators
+<br/>- View global chat and say something from the name of the server 
+<br/>- Need to give someone something or wanna finish wipe with handing out explosives everyone? - you can achieve it with a few simple actions'
+android: false
+iOS: https://apps.apple.com/us/app/rust-admin-tool/id1623064440
+web: false
 screenshots:
-  - 1.png
-  - 2.png
-  - 3.png
-  - 4.png
-producthunt: https://telegra.ph/Replace-this-link-07-23
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+producthunt: false
 companies:
   - url: https://telegra.ph/Replace-this-link-07-23
     image: androidpolice.png
