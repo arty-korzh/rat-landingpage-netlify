@@ -10,19 +10,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rust-admin-tool.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
 twitter_username: rat_app
-github_username:  sandoche
-author: Sandoche Adittane
+github_username:  false
+author: Artem Korzh
 logo: assets/images/large-logo.png
 twitter:
-  username: sandochee
+  username: CakeArty
 social:
-  name: Sandoche Adittane
+  name: CakeArty
   links:
-    - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
-    - https://github.com/sandoche
+    - https://twitter.com/rat_app
 
 languages: ["en"]
 ampdir: amp
