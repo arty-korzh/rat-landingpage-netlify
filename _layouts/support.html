@@ -1,32 +1,60 @@
 ---
 layout: default
 ---
-<article class="page">
+<div class="content">
+    
+    <div class="container">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+        <div class="col-md-8">
+          <div class="form h-100">
+            <h3>Send us a message</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm" netlify>
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Your email">
+                </div>
+              </div>
 
-  <header class="page__header">
-    <h1 class="page__title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="page__content">
-    <section class="app__section container">
-        <h2 class="app__section-title">Contact me</h2>
-        <div>
-            <form name="contact" netlify>
-                <p>
-                  <label>Your Name <input type="text" name="name"/></label>
-                </p>
-                <p>
-                  <label>Your Email <input type="email" name="email"/></label>
-                </p>
-                <p>
-                    <label>Message</label><textarea name="message"/>
-                  </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
-              </form>
+              <div class="row">
+                <div class="col-md-12 form-group mb-5">
+                  <label for="message" class="col-form-label">Message *</label>
+                  <textarea class="form-control" name="message" id="message" cols="30" rows="4"  placeholder="Write your message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-      </section>
-  </div>
+        <div class="col-md-4">
+          <div class="contact-info h-100">
+            <h3>Contact Information</h3>
+            <p class="mb-5">
+                Please share you thoughts about Rust Admin Tool app<br/>
+                If you have any issues with the app or ideas about new features - use this form or contact me directly with link below
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex">
+                <span class="wrap-icon icon-twitter mr-3"></span>
+                <a href="http://twitter.com/app_rat" target="_blank"><span class="text">Rust Admin Tool Twitter</span></a>
+              </li>
+              <li class="d-flex">
+                <span class="wrap-icon icon-envelope mr-3"></span>
+                <a href="mailto:artycake.developer@gmail.com" target="_blank"><span class="text">artycake.developer@gmail.com</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</article>
+  </div>

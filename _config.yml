@@ -5,9 +5,9 @@
 
 title: Rust Admin Tool
 email: artycake.developer@gmail.com
-description: Free to use static landing page template to showcase your mobile app
+description: Rust Admin Tool - Handy tool for Rust servers administrators 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mobileapplandingpage.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rust-admin-tool.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
 twitter_username: rat_app
 github_username:  sandoche
