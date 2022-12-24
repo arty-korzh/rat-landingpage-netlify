@@ -387,3 +387,14 @@ h1, h2 {
   background-position-y: -10vh !important;
   background-repeat: no-repeat !important;
 }
+
+.navigation__logo {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+
+  .navigation__logo-img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}

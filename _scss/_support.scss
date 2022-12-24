@@ -1,8 +1,9 @@
 
 
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
+// @import "bootstrap/functions";
+// @import "bootstrap/variables";
+// @import "bootstrap/mixins";
+@import "bootstrap/bootstrap";
 
 a {
 	transition: .3s all ease;
@@ -88,10 +89,22 @@ a {
 			li {
 				margin-bottom: 15px;
 				color: rgba($white, .5);
+				align-items: center;
 				.wrap-icon {
 					font-size: 20px;
 					color: $white;
 					margin-top: 5px;
+				}
+				svg {
+					display: inline-block;
+					font-size: 20px;
+					padding-right: 10px;
+					box-sizing: content-box;
+				}
+				a {
+					:hover {
+						opacity: 0.8;
+					}
 				}
 			}
 		}

@@ -37,7 +37,6 @@
     "http-server": "^13.0.2",
     "imagemin-webpack-plugin": "^2.1.5",
     "mini-css-extract-plugin": "^2.3.0",
-    "node-sass": "^6.0.1",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.1.1",
     "postcss-scss": "^4.0.1",
@@ -52,8 +51,10 @@
   },
   "dependencies": {
     "@midzer/tobii": "^2.3.0",
+    "bootstrap-icons": "^1.10.2",
     "darkmode-js": "^1.5.6",
     "normalize.css": "^8.0.1",
-    "producthunt-floating-prompt": "^1.0.8"
+    "producthunt-floating-prompt": "^1.0.8",
+    "sass": "^1.57.1"
   }
 }
