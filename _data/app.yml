@@ -8,7 +8,7 @@ full_description: 'Allows to have quick access to all the managed servers in one
 <br/>- RCon console for hardcore administrators
 <br/>- View global chat and say something from the name of the server 
 <br/>- Need to give someone something or wanna finish wipe with handing out explosives everyone? - you can achieve it with a few simple actions'
-android: false
+android: https://play.google.com/store/apps/details?id=com.artycake.rat
 iOS: https://apps.apple.com/us/app/rust-admin-tool/id1623064440
 web: false
 screenshots:
