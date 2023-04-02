@@ -1,13 +1,9 @@
 name: Rust Admin Tool
 description: Handy tool for Rust servers administrators 
-full_description: 'Allows to have quick access to all the managed servers in one place<br/>
-<br/>Features of the app:
-<br/>- View and edit server hostname and description
-<br/>- Manage server players: ban, kick, mute, or even kill with a few taps
-<br/>- Manage the list of banned players
-<br/>- RCon console for hardcore administrators
-<br/>- View global chat and say something from the name of the server 
-<br/>- Need to give someone something or wanna finish wipe with handing out explosives everyone? - you can achieve it with a few simple actions'
+full_description: 'Take your Rust server administration to the next level with Rust Admin Tool! Our app makes managing your Rust game server easier than ever before. With just a few taps, you can easily manage your players, chat with your server, and access your server's RCON console.</br>
+Say goodbye to the hassle of remembering commands and entering them manually into the web console. Rust Admin Tool streamlines the process, allowing you to perform common tasks with ease.</br>
+Our app is designed specifically for Rust server administrators, providing all the essential features you need to manage your server efficiently. With Rust Admin Tool, you can focus on what really matters - providing your players with the best possible Rust experience.</br>
+Download Rust Admin Tool today and take control of your Rust game server like never before!'
 android: https://play.google.com/store/apps/details?id=com.artycake.rat
 iOS: https://apps.apple.com/us/app/rust-admin-tool/id1623064440
 web: false
